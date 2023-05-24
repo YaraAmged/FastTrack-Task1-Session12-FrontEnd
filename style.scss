@@ -10,7 +10,7 @@ h6 {
 }
 
 body {
-  padding: 30px 100px;
+  padding: 30px 50px;
 }
 header {
   h6 {
@@ -18,9 +18,73 @@ header {
   }
 }
 .date-comments {
-    p {
-      font-size: 10px;
-      white-space: nowrap;
+  p {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+}
+h1,
+h5 {
+  color: #17a6b6;
+}
+.card {
+  border-radius: 0;
+  border: none;
+  background-color: #f3f3f3;
+}
+.footer-wrapper {
+  color: white;
+  background-color: #17a6b6;
+}
+.contact-data {
+  font-size: 22px;
+  p {
+    font-size: 12px;
+  }
+}
+button {
+  p {
+    color: #17a6b6;
+  }
+}
+.social-media {
+  font-size: 25px;
+  .social-button {
+    width: 76px;
+    height: 84px;
+    border-radius: 50%;
+    color: #17a6b6;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+hr {
+  width: 350px;
+}
+.input-group {
+  border-radius: 0;
+  border: none;
+  border: 0;
+  width: 350px;
+
+  button {
+    border-radius: 0;
+    border: 0;
+    background-color: #f3f3f3;
+    color: #17a6b6;
+  }
+  label {
+    border-radius: 0;
+    img {
+      width: 20px;
+      color: white;
     }
-  
+  }
+}
+.about{
+  font-size: 10px;
+img{
+  width: 150px;
+}
 }
