@@ -15,4 +15,9 @@ body {
 
 header h6 {
   line-height: 30px;
+}
+
+.date-comments p {
+  font-size: 10px;
+  white-space: nowrap;
 }/*# sourceMappingURL=style.css.map */
