@@ -9,10 +9,6 @@ h6 {
   margin: 0;
 }
 
-body {
-  padding: 30px 50px;
-}
-
 header h6 {
   line-height: 30px;
 }
@@ -36,6 +32,8 @@ h5 {
 .footer-wrapper {
   color: white;
   background-color: #17a6b6;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .contact-data {
@@ -54,7 +52,7 @@ button p {
 }
 .social-media .social-button {
   width: 76px;
-  height: 84px;
+  height: 76px;
   border-radius: 50%;
   color: #17a6b6;
 }
@@ -62,15 +60,10 @@ button p {
   font-size: 12px;
 }
 
-hr {
-  width: 350px;
-}
-
 .input-group {
   border-radius: 0;
   border: none;
   border: 0;
-  width: 350px;
 }
 .input-group button {
   border-radius: 0;
@@ -91,4 +84,28 @@ hr {
 }
 .about img {
   width: 150px;
+}
+
+.modal-content {
+  padding: 20px;
+  padding-bottom: 100px;
+}
+.modal-content img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.modal-content .modal-close-btn {
+  background: black;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.arrow {
+  color: white;
+}
+.arrow img {
+  font-style: white;
+  width: 30px;
+  height: 30px;
 }/*# sourceMappingURL=style.css.map */
